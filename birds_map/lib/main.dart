@@ -1,3 +1,4 @@
+import 'package:birds_map/screens/map_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,9 +17,8 @@ class MyApp extends StatelessWidget {
           primary: const Color(0xFF548CA8),
           secondary: const Color(0xFF96BAFF),
         ),
-
       ),
-      home: ,
+      home: MapScreen(),
     );
   }
 }
